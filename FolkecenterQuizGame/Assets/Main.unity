@@ -1043,6 +1043,7 @@ MonoBehaviour:
     isTrue: 0
   - fact: 2+2=4
     isTrue: 1
+  factText: {fileID: 2058094813}
 --- !u!4 &880660754
 Transform:
   m_ObjectHideFlags: 0
@@ -2078,7 +2079,7 @@ GameObject:
   - component: {fileID: 2058094814}
   - component: {fileID: 2058094813}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Fact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

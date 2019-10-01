@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     private static List<Question> unansweredQuestions;
 
     private Question currentQuestion;
+    [SerializeField]
+    private Text factText;
 
     void Start()
     {
@@ -17,14 +20,16 @@ public class GameManager : MonoBehaviour
             unansweredQuestions = questions.ToList<Question>();
         }
 
-        getRandomQuestion();
-        Debug.Log(currentQuestion.fact + "is " + currentQuestion.isTrue);
+        setCurrentQuestion();
+       
         
     }
-    void getRandomQuestion()
+    void setCurrentQuestion()
     {
         int randomQuestionIndex = Random.Range(0, unansweredQuestions.Count);
         currentQuestion = unansweredQuestions[randomQuestionIndex];
+        factText.text = currentQuestion.fact;
+
         unansweredQuestions.RemoveAt(randomQuestionIndex);
     }
 }
