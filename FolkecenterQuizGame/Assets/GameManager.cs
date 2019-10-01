@@ -32,4 +32,29 @@ public class GameManager : MonoBehaviour
 
         unansweredQuestions.RemoveAt(randomQuestionIndex);
     }
+
+    public void UserSelectTrue()
+    {
+        if (currentQuestion.isTrue)
+        {
+            Debug.Log("CORRECT!");
+        }
+        else
+        {
+            Debug.Log("WRONG!");
+        }
+    }
+
+
+    public void UserSelectFalse()
+    {
+        if (!currentQuestion.isTrue)
+        {
+            Debug.Log("CORRECT!");
+        }
+        else
+        {
+            Debug.Log("WRONG!");
+        }
+    }
 }
