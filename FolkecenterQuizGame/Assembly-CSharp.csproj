@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
+     <Compile Include="Assets\Question.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/FolkecenterQuizGame/FolkecenterGame/FolkecenterQuizGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
