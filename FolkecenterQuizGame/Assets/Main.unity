@@ -1048,11 +1048,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - fact: I am super cool.
+  - fact: Nordic Folkecenter was founded in 1983
     isTrue: 1
-  - fact: Violets are red.
+  - fact: Nordisk Folkecenter doesn't offer a training program
     isTrue: 0
-  - fact: 2+2=4
+  - fact: People can have guided tours of Noridc Folkecenter
+    isTrue: 1
+  - fact: There is also a Folkecenter in Uganda
+    isTrue: 1
+  - fact: A Folkecenter has been established in Bulgaria
+    isTrue: 0
+  - fact: Supporters of Folkecenter get an invitation to the Christmas dinner
+    isTrue: 1
+  - fact: Wave energy is a type of renewable energy
+    isTrue: 1
+  - fact: Coal is a renewable source of energy
+    isTrue: 0
+  - fact: In the long run, wind energy is more expensive than coal generated energy
+    isTrue: 0
+  - fact: Nordic Folkecenter hosts a testing site for wind energy
     isTrue: 1
   factText: {fileID: 2058094813}
   trueAnswerText: {fileID: 1394646360}
