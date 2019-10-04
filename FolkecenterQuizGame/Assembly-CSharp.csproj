@@ -97,8 +97,6 @@
      <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
      <Compile Include="Assets\Question.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Question.cs" />
      <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/FolkecenterQuizGame/FolkecenterGame/FolkecenterQuizGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
